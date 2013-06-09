@@ -5,7 +5,7 @@ using DevExpress.ExpressApp;
 using System.ComponentModel;
 using DevExpress.Xpo.Metadata;
 
-namespace YetAnotherERP.Module.Base
+namespace JanusERP.Module.Base
 {
     public interface IPerson {
         DateTime Birthday { get; set; }

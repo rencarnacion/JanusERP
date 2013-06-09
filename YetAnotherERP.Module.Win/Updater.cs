@@ -4,7 +4,7 @@ using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.Updating;
 using DevExpress.Xpo;
 
-namespace YetAnotherERP.Module.Win
+namespace JanusERP.Module.Win
 {
     public class Updater : ModuleUpdater
     {

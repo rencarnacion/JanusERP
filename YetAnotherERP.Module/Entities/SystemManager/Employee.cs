@@ -9,16 +9,16 @@ using DevExpress.ExpressApp.Filtering;
 using DevExpress.Persistent.Validation;
 using DevExpress.Persistent.Base.General;
 using DevExpress.Persistent.Base.Security;
-using YetAnotherERP.Module.Base;
-using YetAnotherERP.Module.SystemManager;
+using JanusERP.Module.Base;
+using JanusERP.Module.SystemManager;
 using DevExpress.Xpo.Metadata;
 
-namespace YetAnotherERP.Module.SystemManager 
+namespace JanusERP.Module.SystemManager 
 {
     [NavigationItem("System Manager"), CreatableItem(false), VisibleInReports(true)]
     [ImageName("BO_User")]
     [DefaultProperty("UserName")]
-    public class Employee : BasePersistentObject, YetAnotherERP.Module.Base.IPerson, IUser, IUserWithRoles, IAuthenticationActiveDirectoryUser, IAuthenticationStandardUser, IResource {
+    public class Employee : BasePersistentObject, JanusERP.Module.Base.IPerson, IUser, IUserWithRoles, IAuthenticationActiveDirectoryUser, IAuthenticationStandardUser, IResource {
        
         
         private string _FirstName;
@@ -182,7 +182,7 @@ namespace YetAnotherERP.Module.SystemManager
             }
         }
         //Created/Updated: WIN-NSG2NRJ75MG\Guillermo at 9/6/2011 11:11 AM
-        public new class FieldsClass : YetAnotherERP.Module.Base.BasePersistentObject.FieldsClass
+        public new class FieldsClass : JanusERP.Module.Base.BasePersistentObject.FieldsClass
         {
             public FieldsClass()
                 : base()

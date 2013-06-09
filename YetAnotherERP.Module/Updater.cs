@@ -5,11 +5,11 @@ using DevExpress.ExpressApp.Security;
 using DevExpress.ExpressApp.Updating;
 using DevExpress.Xpo;
 using DevExpress.Data.Filtering;
-using YetAnotherERP.Module.SystemManager;
-using YetAnotherERP.Module.Entities.SystemManager;
+using JanusERP.Module.SystemManager;
+using JanusERP.Module.Entities.SystemManager;
 
 
-namespace YetAnotherERP.Module
+namespace JanusERP.Module
 {
     public class Updater : ModuleUpdater
     {
@@ -18,7 +18,7 @@ namespace YetAnotherERP.Module
         {
             base.UpdateDatabaseAfterUpdateSchema();
 
-            CompanyInformation.GetInstance(((ObjectSpace)ObjectSpace).Session);
+            CompanyInformation.GetInstance(ObjectSpace);
             LoadDefaultUsersAndRolesData();
         }
 

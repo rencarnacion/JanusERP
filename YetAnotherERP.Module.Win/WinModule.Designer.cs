@@ -1,6 +1,6 @@
-namespace YetAnotherERP.Module.Win
+namespace JanusERP.Module.Win
 {
-    partial class YetAnotherERPWindowsFormsModule
+    partial class JanusERPWindowsFormsModule
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,9 +29,9 @@ namespace YetAnotherERP.Module.Win
         private void InitializeComponent()
         {
             // 
-            // YetAnotherERPWindowsFormsModule
+            // JanusERPWindowsFormsModule
             // 
-            this.RequiredModuleTypes.Add(typeof(YetAnotherERP.Module.YetAnotherERPModule));
+            this.RequiredModuleTypes.Add(typeof(JanusERP.Module.JanusERPModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Win.SystemModule.SystemWindowsFormsModule));
 
         }

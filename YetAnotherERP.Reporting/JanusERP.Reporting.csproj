@@ -5,21 +5,21 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2DA02EA7-9EDC-4655-8765-5B5C48E2AD01}</ProjectGuid>
+    <ProjectGuid>{3C8AECD1-A979-4C55-AA0B-EBB5244207B1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>YetAnotherERP.Controllers</RootNamespace>
-    <AssemblyName>YetAnotherERP.Controllers</AssemblyName>
+    <RootNamespace>YetAnotherERP.Reporting</RootNamespace>
+    <AssemblyName>YetAnotherERP.Reporting</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <PublishUrl>publish\</PublishUrl>
+    <PublishUrl>http://localhost/YetAnotherERP.Reporting/</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
-    <UpdateEnabled>false</UpdateEnabled>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
@@ -28,7 +28,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -52,28 +52,28 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Printing.v11.1.Core">
+    <Reference Include="DevExpress.Printing.v12.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.v11.1">
+    <Reference Include="DevExpress.Data.v12.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.v11.1">
+    <Reference Include="DevExpress.ExpressApp.Xpo.v12.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Objects.v11.1">
+    <Reference Include="DevExpress.ExpressApp.v12.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.ExpressApp.Validation.v11.1">
+    <Reference Include="DevExpress.ExpressApp.Objects.v12.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Persistent.Base.v11.1">
+    <Reference Include="DevExpress.ExpressApp.Validation.v12.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Persistent.BaseImpl.v11.1">
+    <Reference Include="DevExpress.Persistent.Base.v12.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpo.v11.1">
+    <Reference Include="DevExpress.Xpo.v12.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System">
@@ -98,23 +98,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="Module.Designer.cs">
-      <DependentUpon>Module.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Updater.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Module.resx">
-      <DependentUpon>Module.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -132,19 +116,6 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\YetAnotherERP.BOHelper\YetAnotherERP.BOHelper.csproj">
-      <Project>{EF591D90-64ED-4F7E-A1C3-438A23FBD10A}</Project>
-      <Name>YetAnotherERP.BOHelper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\YetAnotherERP.Module\YetAnotherERP.Module.csproj">
-      <Project>{3BA63787-5BE0-4430-A630-760EC2EE8AF4}</Project>
-      <Name>YetAnotherERP.Module</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Customers\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

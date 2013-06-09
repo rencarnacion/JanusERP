@@ -8,8 +8,8 @@ using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
-using YetAnotherERP.Module.Base;
-namespace YetAnotherERP.Module.Entities.Suppliers
+using JanusERP.Module.Base;
+namespace JanusERP.Module.Entities.Suppliers
 {
     [CreatableItem(false), NavigationItem("Suppliers"), VisibleInReports(true)]
     [MapInheritance(MapInheritanceType.OwnTable)]

@@ -1,6 +1,6 @@
-namespace YetAnotherERP.Win
+namespace JanusERP.Win
 {
-    partial class YetAnotherERPWindowsFormsApplication
+    partial class JanusERPWindowsFormsApplication
     {
         /// <summary> 
         /// Required designer variable.
@@ -30,8 +30,8 @@ namespace YetAnotherERP.Win
         {
             this.module1 = new DevExpress.ExpressApp.SystemModule.SystemModule();
             this.module2 = new DevExpress.ExpressApp.Win.SystemModule.SystemWindowsFormsModule();
-            this.module3 = new YetAnotherERP.Module.YetAnotherERPModule();
-            this.module4 = new YetAnotherERP.Module.Win.YetAnotherERPWindowsFormsModule();
+            this.module3 = new JanusERP.Module.JanusERPModule();
+            this.module4 = new JanusERP.Module.Win.JanusERPWindowsFormsModule();
             this.module5 = new DevExpress.ExpressApp.Validation.ValidationModule();
             this.module6 = new DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule();
             this.module7 = new DevExpress.ExpressApp.Validation.Win.ValidationWindowsFormsModule();
@@ -58,28 +58,28 @@ namespace YetAnotherERP.Win
             // 
             // sqlConnection1
             // 
-            this.sqlConnection1.ConnectionString = "Data Source=(local);Initial Catalog=YetAnotherERP;Integrated Security=SSPI;Poolin" +
+            this.sqlConnection1.ConnectionString = "Data Source=(local);Initial Catalog=JanusERP;Integrated Security=SSPI;Poolin" +
     "g=false";
             this.sqlConnection1.FireInfoMessageEventOnUserErrors = false;
             // 
             // reportsModule1
             // 
             this.reportsModule1.EnableInplaceReports = true;
-            this.reportsModule1.ReportDataType = typeof(YetAnotherERP.Module.Base.BaseReportData);
+            this.reportsModule1.ReportDataType = typeof(JanusERP.Module.Base.BaseReportData);
             // 
             // securityComplex1
             // 
             this.securityComplex1.Authentication = this.authenticationStandard1;
-            this.securityComplex1.RoleType = typeof(YetAnotherERP.Module.SystemManager.Role);
-            this.securityComplex1.UserType = typeof(YetAnotherERP.Module.SystemManager.Employee);
+            this.securityComplex1.RoleType = typeof(JanusERP.Module.SystemManager.Role);
+            this.securityComplex1.UserType = typeof(JanusERP.Module.SystemManager.Employee);
             // 
             // authenticationStandard1
             // 
             this.authenticationStandard1.LogonParametersType = typeof(DevExpress.ExpressApp.Security.AuthenticationStandardLogonParameters);
             // 
-            // YetAnotherERPWindowsFormsApplication
+            // JanusERPWindowsFormsApplication
             // 
-            this.ApplicationName = "YetAnotherERP";
+            this.ApplicationName = "JanusERP";
             this.Connection = this.sqlConnection1;
             this.Modules.Add(this.module1);
             this.Modules.Add(this.module2);
@@ -101,7 +101,7 @@ namespace YetAnotherERP.Win
             this.Modules.Add(this.importWizardWindowsFormsModule1);
             this.Modules.Add(this.wizardUIWindowsFormsModule1);
             this.Security = this.securityComplex1;
-            this.DatabaseVersionMismatch += new System.EventHandler<DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs>(this.YetAnotherERPWindowsFormsApplication_DatabaseVersionMismatch);
+            this.DatabaseVersionMismatch += new System.EventHandler<DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs>(this.JanusERPWindowsFormsApplication_DatabaseVersionMismatch);
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();
 
         }
@@ -110,8 +110,8 @@ namespace YetAnotherERP.Win
 
         private DevExpress.ExpressApp.SystemModule.SystemModule module1;
         private DevExpress.ExpressApp.Win.SystemModule.SystemWindowsFormsModule module2;
-        private YetAnotherERP.Module.YetAnotherERPModule module3;
-        private YetAnotherERP.Module.Win.YetAnotherERPWindowsFormsModule module4;
+        private JanusERP.Module.JanusERPModule module3;
+        private JanusERP.Module.Win.JanusERPWindowsFormsModule module4;
         private DevExpress.ExpressApp.Validation.ValidationModule module5;
         private DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule module6;
         private DevExpress.ExpressApp.Validation.Win.ValidationWindowsFormsModule module7;

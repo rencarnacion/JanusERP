@@ -9,9 +9,9 @@ using DevExpress.ExpressApp.Actions;
 using DevExpress.Persistent.Base;
 using DevExpress.ExpressApp.SystemModule;
 using DevExpress.ExpressApp.Security;
-using YetAnotherERP.Module.Entities.Inventory;
+using JanusERP.Module.Entities.Inventory;
 
-namespace YetAnotherERP.Module.Controllers
+namespace JanusERP.Module.Controllers
 {
     public partial class CreateNewObjectFromNavigationController : ShowNavigationItemController
     {

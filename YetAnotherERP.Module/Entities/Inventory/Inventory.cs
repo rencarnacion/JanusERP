@@ -3,18 +3,15 @@ using System.ComponentModel;
 
 using DevExpress.Xpo;
 using DevExpress.Data.Filtering;
-using DevExpress.ExpressApp.ConditionalEditorState;
 using DevExpress.ExpressApp;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
 
-using YetAnotherERP.Module.Base;
+using JanusERP.Module.Base;
 
-namespace YetAnotherERP.Module.Entities.Inventory
+namespace JanusERP.Module.Entities.Inventory
 {
     [DefaultClassOptions, CreatableItem(false), NavigationItem("Inventory")]
-    [EditorStateRule("ESR for Inventory.Lot", "Lot", EditorState.Hidden, "InventoriedItem.TrackByLot=False", ViewType.Any)]
-    [EditorStateRule("ESR for Inventory.DateCode", "DateCode", EditorState.Hidden, "InventoriedItem.TrackByDateCode=False", ViewType.Any)]
     public class Inventory : BasePersistentObject
     {
         public Inventory(Session session): base(session){}

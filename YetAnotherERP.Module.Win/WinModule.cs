@@ -5,12 +5,12 @@ using System.ComponentModel;
 
 using DevExpress.ExpressApp;
 
-namespace YetAnotherERP.Module.Win
+namespace JanusERP.Module.Win
 {
     [ToolboxItemFilter("Xaf.Platform.Win")]
-    public sealed partial class YetAnotherERPWindowsFormsModule : ModuleBase
+    public sealed partial class JanusERPWindowsFormsModule : ModuleBase
     {
-        public YetAnotherERPWindowsFormsModule()
+        public JanusERPWindowsFormsModule()
         {
             InitializeComponent();
         }

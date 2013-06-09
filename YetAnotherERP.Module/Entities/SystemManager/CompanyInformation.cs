@@ -1,12 +1,14 @@
 using System;
+using DevExpress.ExpressApp;
+using DevExpress.ExpressApp.Xpo;
 using DevExpress.Xpo;
-using YetAnotherERP.Module.Base;
+using JanusERP.Module.Base;
 using System.Drawing;
 using DevExpress.Xpo.Metadata;
 using DevExpress.Persistent.Base;
 using System.ComponentModel;
 
-namespace YetAnotherERP.Module.Entities.SystemManager
+namespace JanusERP.Module.Entities.SystemManager
 {
     [VisibleInReports(true)]
     [CreatableItem(false), NavigationItem("System Manager")]
@@ -16,12 +18,12 @@ namespace YetAnotherERP.Module.Entities.SystemManager
 
         protected internal CompanyInformation(Session session) : base(session) { }
 
-        public static CompanyInformation GetInstance(Session session)
+        public static CompanyInformation GetInstance(IObjectSpace objectSpace)
         {
-            CompanyInformation result = session.FindObject<CompanyInformation>(null);
+            CompanyInformation result = objectSpace.FindObject<CompanyInformation>(null);
             if (result == null)
             {
-                result = new CompanyInformation(session);
+                result = new CompanyInformation(((XPObjectSpace)objectSpace).Session);
                 result.CompanyName = "My Company";
                 result.CompanySlogan = "My Company Slogan";
                 result.Save();
@@ -126,7 +128,7 @@ namespace YetAnotherERP.Module.Entities.SystemManager
         /// </summary>
         protected override void OnDeleting()
         {
-            throw new Exception("Cannot be deleted!");
+            throw new UserFriendlyException("This object Cannot be deleted!");
         }
 
 

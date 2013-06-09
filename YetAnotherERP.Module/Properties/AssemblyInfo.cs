@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("YetAnotherERP.Module")]
+[assembly: AssemblyTitle("JanusERP.Module")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("-")]
-[assembly: AssemblyProduct("YetAnotherERP.Module")]
+[assembly: AssemblyProduct("JanusERP.Module")]
 [assembly: AssemblyCopyright("Copyright © - 2007")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

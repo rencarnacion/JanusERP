@@ -8,7 +8,7 @@ using DevExpress.ExpressApp;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
 
-namespace YetAnotherERP.Module.Base
+namespace JanusERP.Module.Base
 {
    [NonPersistent]
     public abstract class BaseDocument : BasePersistentObject

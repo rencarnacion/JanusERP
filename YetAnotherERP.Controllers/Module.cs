@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using DevExpress.ExpressApp;
 
-namespace YetAnotherERP.Controllers
+namespace JanusERP.Controllers
 {
     public sealed partial class ControllersModule : ModuleBase
     {

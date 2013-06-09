@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using DevExpress.ExpressApp.Model;
 using DevExpress.ExpressApp.Utils;
 using DevExpress.ExpressApp.Scheduler;
-using YetAnotherERP.Module.SystemManager;
-using YetAnotherERP.Module.Base;
+using JanusERP.Module.SystemManager;
+using JanusERP.Module.Base;
 
-namespace YetAnotherERP.Module.Controllers {
+namespace JanusERP.Module.Controllers {
     public class SchedulerActivityListViewController : ViewController<ListView> {
        
         private object masterDetailViewEmployeeIdCore;

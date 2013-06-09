@@ -5,9 +5,9 @@ using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
 using DevExpress.Data.Filtering;
 
-using YetAnotherERP.Module.Base;
+using JanusERP.Module.Base;
 
-namespace YetAnotherERP.Module.Entities.Inventory
+namespace JanusERP.Module.Entities.Inventory
 {
     [CreatableItem(false), NavigationItem("Inventory"), VisibleInReports(true)]
     public class ProductInventory : BasePersistentObject

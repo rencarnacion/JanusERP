@@ -1,6 +1,6 @@
-namespace YetAnotherERP.Module
+namespace JanusERP.Module
 {
-    partial class YetAnotherERPModule
+    partial class JanusERPModule
     {
         /// <summary> 
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace YetAnotherERP.Module
         private void InitializeComponent()
         {
             // 
-            // YetAnotherERPModule
+            // JanusERPModule
             // 
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.SystemModule.SystemModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule));
@@ -37,8 +37,6 @@ namespace YetAnotherERP.Module
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.FileAttachments.Win.FileAttachmentsWindowsFormsModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Reports.Win.ReportsWindowsFormsModule));
             this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.ConditionalAppearance.ConditionalAppearanceModule));
-            this.RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.ConditionalEditorState.Win.ConditionalEditorStateWindowsFormsModule));
-
         }
 
         #endregion

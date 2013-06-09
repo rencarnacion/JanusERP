@@ -8,7 +8,7 @@ using DevExpress.ExpressApp;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
 
-namespace YetAnotherERP.Module.Entities.CRM
+namespace JanusERP.Module.Entities.CRM
 {
     [CreatableItem(false), NavigationItem("CRM"), VisibleInReports(true)]
     [MapInheritance(MapInheritanceType.OwnTable)]

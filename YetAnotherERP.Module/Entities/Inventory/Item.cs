@@ -9,10 +9,10 @@ using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
 using DevExpress.Xpo.Metadata;
 using DevExpress.XtraEditors.DXErrorProvider;
-using YetAnotherERP.Module.Entities.SystemManager;
-using YetAnotherERP.Module.Base;
+using JanusERP.Module.Entities.SystemManager;
+using JanusERP.Module.Base;
 
-namespace YetAnotherERP.Module.Entities.Inventory
+namespace JanusERP.Module.Entities.Inventory
 {
     [CreatableItem(false), NavigationItem("Inventory"), VisibleInReports(true)]
     [DefaultProperty("ItemName")]
@@ -50,15 +50,6 @@ namespace YetAnotherERP.Module.Entities.Inventory
             get { return _itemDescription; }
             set { SetPropertyValue("ItemDescription", ref _itemDescription, value); }
         }
-
-        private string _ItemDescription;
-        public string ItemDescription
-        {
-            get { return _ItemDescription; }
-            set { SetPropertyValue("ItemDescription", ref _ItemName, value); }
-        }
-
-
 
         private TaxCode _TaxID;
         public TaxCode TaxID

@@ -1,7 +1,7 @@
 using DevExpress.ExpressApp.Reports;
 
 
-namespace YetAnotherERP.Module.Base
+namespace JanusERP.Module.Base
 {
 
     public class BaseXafReport : XafReport

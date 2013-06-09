@@ -8,7 +8,7 @@ using DevExpress.ExpressApp.Win;
 using DevExpress.Persistent.Base;
 
 
-namespace YetAnotherERP.Win
+namespace JanusERP.Win
 {
     static class Program
     {
@@ -25,7 +25,7 @@ namespace YetAnotherERP.Win
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             EditModelPermission.AlwaysGranted = System.Diagnostics.Debugger.IsAttached;
-            YetAnotherERPWindowsFormsApplication winApplication = new YetAnotherERPWindowsFormsApplication();
+            JanusERPWindowsFormsApplication winApplication = new JanusERPWindowsFormsApplication();
 #if EASYTEST
 			if(ConfigurationManager.ConnectionStrings["EasyTestConnectionString"] != null) {
 				winApplication.ConnectionString = ConfigurationManager.ConnectionStrings["EasyTestConnectionString"].ConnectionString;

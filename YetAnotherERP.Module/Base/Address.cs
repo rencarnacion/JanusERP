@@ -7,9 +7,9 @@ using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
-using YetAnotherERP.Module.Entities.SystemManager;
+using JanusERP.Module.Entities.SystemManager;
 
-namespace YetAnotherERP.Module.Base
+namespace JanusERP.Module.Base
 {
    public class Address :  BasePersistentObject
     {

@@ -7,9 +7,9 @@ using DevExpress.Data.Filtering;
 using DevExpress.ExpressApp;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
-using YetAnotherERP.Module.Base;
+using JanusERP.Module.Base;
 
-namespace YetAnotherERP.Module.Entities.SystemManager
+namespace JanusERP.Module.Entities.SystemManager
 {
     [VisibleInReports(true)]
     [CreatableItem(false), NavigationItem("System Manager")]

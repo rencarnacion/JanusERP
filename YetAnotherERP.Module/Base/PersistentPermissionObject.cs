@@ -5,9 +5,9 @@ using System.Diagnostics;
 using System.ComponentModel;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Base.Security;
-using YetAnotherERP.Module.SystemManager;
+using JanusERP.Module.SystemManager;
 
-namespace YetAnotherERP.Module.Base
+namespace JanusERP.Module.Base
 {
     [ImageName("BO_Security")]
     public class PersistentPermissionObject : BasePersistentObject, IPersistentPermission, IXpoCloneable {

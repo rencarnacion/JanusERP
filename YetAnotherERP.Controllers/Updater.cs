@@ -6,7 +6,7 @@ using DevExpress.ExpressApp.Updating;
 using DevExpress.Xpo;
 using DevExpress.Data.Filtering;
 
-namespace YetAnotherERP.Controllers
+namespace JanusERP.Controllers
 {
     public class Updater : ModuleUpdater
     {

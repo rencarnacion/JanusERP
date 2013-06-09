@@ -11,9 +11,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using DevExpress.Persistent.Validation;
 using DevExpress.Persistent.Base.Security;
-using YetAnotherERP.Module.Base;
+using JanusERP.Module.Base;
 
-namespace YetAnotherERP.Module.SystemManager
+namespace JanusERP.Module.SystemManager
 {
     [ImageName("BO_Role")]
     [DefaultProperty("Name")]
@@ -83,7 +83,7 @@ namespace YetAnotherERP.Module.SystemManager
             }
         }
         //Created/Updated: WIN-NSG2NRJ75MG\Guillermo at 9/6/2011 11:11 AM
-        public new class FieldsClass : YetAnotherERP.Module.Base.BasePersistentObject.FieldsClass
+        public new class FieldsClass : JanusERP.Module.Base.BasePersistentObject.FieldsClass
         {
             public FieldsClass()
                 : base()

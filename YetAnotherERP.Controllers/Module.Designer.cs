@@ -1,4 +1,4 @@
-namespace YetAnotherERP.Controllers
+namespace JanusERP.Controllers
 {
     partial class ControllersModule
     {

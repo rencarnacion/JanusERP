@@ -1,4 +1,4 @@
-namespace YetAnotherERP.Module.Controllers
+namespace JanusERP.Module.Controllers
 {
     partial class CreateNewObjectFromNavigationController
     {

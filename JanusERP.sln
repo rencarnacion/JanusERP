@@ -1,17 +1,17 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.Module", "YetAnotherERP.Module\YetAnotherERP.Module.csproj", "{3BA63787-5BE0-4430-A630-760EC2EE8AF4}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanusERP.Module", "YetAnotherERP.Module\JanusERP.Module.csproj", "{3BA63787-5BE0-4430-A630-760EC2EE8AF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.Module.Win", "YetAnotherERP.Module.Win\YetAnotherERP.Module.Win.csproj", "{69913AAE-B3F2-4596-B738-3251C7558F9F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanusERP.Module.Win", "YetAnotherERP.Module.Win\JanusERP.Module.Win.csproj", "{69913AAE-B3F2-4596-B738-3251C7558F9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.Win", "YetAnotherERP.Win\YetAnotherERP.Win.csproj", "{BABA07E3-2D0B-4012-85CF-19B81F9DB580}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanusERP.Win", "YetAnotherERP.Win\JanusERP.Win.csproj", "{BABA07E3-2D0B-4012-85CF-19B81F9DB580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.BOHelper", "YetAnotherERP.BOHelper\YetAnotherERP.BOHelper.csproj", "{EF591D90-64ED-4F7E-A1C3-438A23FBD10A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "janusERP.BOHelper", "YetAnotherERP.BOHelper\janusERP.BOHelper.csproj", "{EF591D90-64ED-4F7E-A1C3-438A23FBD10A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.Reporting", "YetAnotherERP.Reporting\YetAnotherERP.Reporting.csproj", "{3C8AECD1-A979-4C55-AA0B-EBB5244207B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanusERP.Reporting", "YetAnotherERP.Reporting\JanusERP.Reporting.csproj", "{3C8AECD1-A979-4C55-AA0B-EBB5244207B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.Controllers", "YetAnotherERP.Controllers\YetAnotherERP.Controllers.csproj", "{2DA02EA7-9EDC-4655-8765-5B5C48E2AD01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JanusERP.Controllers", "YetAnotherERP.Controllers\JanusERP.Controllers.csproj", "{2DA02EA7-9EDC-4655-8765-5B5C48E2AD01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

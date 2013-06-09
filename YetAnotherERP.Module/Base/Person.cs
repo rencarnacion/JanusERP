@@ -9,7 +9,7 @@ using DevExpress.Persistent.Validation;
 using DevExpress.Xpo.Metadata;
 
 
-namespace YetAnotherERP.Module.Base
+namespace JanusERP.Module.Base
 {
     [NonPersistent]
    public class Person : BasePersistentObject, IPerson

@@ -5,17 +5,17 @@ using DevExpress.ExpressApp.Win;
 using DevExpress.ExpressApp.Updating;
 using DevExpress.ExpressApp;
 
-namespace YetAnotherERP.Win
+namespace JanusERP.Win
 {
-    public partial class YetAnotherERPWindowsFormsApplication : Xpand.ExpressApp.Win.XpandWinApplication
+    public partial class JanusERPWindowsFormsApplication : Xpand.ExpressApp.Win.XpandWinApplication
     {
-        public YetAnotherERPWindowsFormsApplication()
+        public JanusERPWindowsFormsApplication()
         {
             InitializeComponent();
             DelayedViewItemsInitialization = true;
         }
 
-        private void YetAnotherERPWindowsFormsApplication_DatabaseVersionMismatch(object sender, DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs e)
+        private void JanusERPWindowsFormsApplication_DatabaseVersionMismatch(object sender, DevExpress.ExpressApp.DatabaseVersionMismatchEventArgs e)
         {
 #if EASYTEST
 			e.Updater.Update();

@@ -8,12 +8,12 @@ using DevExpress.ExpressApp;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
 
-using YetAnotherERP.Module.Entities.Inventory;
-using YetAnotherERP.Module.Entities.Suppliers;
-using YetAnotherERP.Module.Entities.SystemManager;
-using YetAnotherERP.Module.Entities.Customers;
+using JanusERP.Module.Entities.Inventory;
+using JanusERP.Module.Entities.Suppliers;
+using JanusERP.Module.Entities.SystemManager;
+using JanusERP.Module.Entities.Customers;
 
-namespace YetAnotherERP.Module.Base
+namespace JanusERP.Module.Base
 {
     [CreatableItem(false)]
     [NavigationItem(false)]

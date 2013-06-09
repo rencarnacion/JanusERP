@@ -5,11 +5,11 @@ using DevExpress.ExpressApp;
 using System.Reflection;
 
 
-namespace YetAnotherERP.Module
+namespace JanusERP.Module
 {
-    public sealed partial class YetAnotherERPModule : ModuleBase
+    public sealed partial class JanusERPModule : ModuleBase
     {
-        public YetAnotherERPModule()
+        public JanusERPModule()
         {
             InitializeComponent();
         }

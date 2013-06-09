@@ -7,10 +7,10 @@ using DevExpress.Xpo.Metadata;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
 using DevExpress.Persistent.Base.General;
-using YetAnotherERP.Module.Base;
-using YetAnotherERP.Module.SystemManager;
+using JanusERP.Module.Base;
+using JanusERP.Module.SystemManager;
 
-namespace YetAnotherERP.Module.Base {
+namespace JanusERP.Module.Base {
 
    
     [CreatableItem(false)]

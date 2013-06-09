@@ -7,9 +7,9 @@ using System.Text;
 using DevExpress.ExpressApp;
 using DevExpress.ExpressApp.Actions;
 using DevExpress.Persistent.Base;
-using YetAnotherERP.Module.Entities.Customers;
+using JanusERP.Module.Entities.Customers;
 
-namespace YetAnotherERP.Module.Controllers.Customers
+namespace JanusERP.Module.Controllers.Customers
 {
     public partial class SalesQuoteController : ViewController
     {

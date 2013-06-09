@@ -1,4 +1,4 @@
-namespace YetAnotherERP.Module.Controllers.Customers
+namespace JanusERP.Module.Controllers.Customers
 {
     partial class SalesQuoteController
     {
@@ -66,7 +66,7 @@ namespace YetAnotherERP.Module.Controllers.Customers
             // 
             // SalesQuoteController
             // 
-            this.TargetObjectType = typeof(YetAnotherERP.Module.Entities.Customers.SalesQuote);
+            this.TargetObjectType = typeof(JanusERP.Module.Entities.Customers.SalesQuote);
             this.TargetViewType = DevExpress.ExpressApp.ViewType.DetailView;
             this.TypeOfView = typeof(DevExpress.ExpressApp.DetailView);
 

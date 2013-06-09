@@ -8,9 +8,9 @@ using DevExpress.ExpressApp;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.Validation;
 
-using YetAnotherERP.Module.Base;
+using JanusERP.Module.Base;
 
-namespace YetAnotherERP.Module.Entities.Inventory
+namespace JanusERP.Module.Entities.Inventory
 {
     [DefaultClassOptions, NavigationItem("Inventory"), CreatableItem(false)]
     [DefaultProperty("LocationName")]
