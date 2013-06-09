@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3267/YetAnotherERP.Module/Entities/Suppliers
+END
+SupplierAccount.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/Suppliers/SupplierAccount.cs
+END
+PurchaseOrder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/11114/YetAnotherERP.Module/Entities/Suppliers/PurchaseOrder.cs
+END
+PurchaseInvoice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11114/YetAnotherERP.Module/Entities/Suppliers/PurchaseInvoice.cs
+END
+PurchaseQuote.cs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/11114/YetAnotherERP.Module/Entities/Suppliers/PurchaseQuote.cs
+END

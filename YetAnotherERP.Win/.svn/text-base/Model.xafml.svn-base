@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems>
+    <Items>
+      <Item Id="System Manager">
+        <Items>
+          <Item Id="CompanyInformation_ListView" ViewId="CompanyInformation_DetailView" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="11.1.8.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="11.1.8.0" IsNewNode="True" />
+    <SchemaModule Name="XpandSystemModule" Version="11.1.8.7" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="CompanyInformation_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="100" ImageName="">
+            <LayoutGroup Id="CompanyInformation" RelativeSize="100" ImageName="">
+              <LayoutGroup Id="CompanyInformation_col1" RelativeSize="48" ImageName="">
+                <LayoutItem Id="CompanyName" RelativeSize="5" ViewItem="CompanyName" />
+                <LayoutItem Id="CompanySlogan" RelativeSize="3" ViewItem="CompanySlogan" />
+                <LayoutItem Id="CompanyTaxID" ViewItem="CompanyTaxID" Index="2" RelativeSize="3" IsNewNode="True" />
+                <LayoutItem Id="CompanyEmail" Index="3" RelativeSize="3" ViewItem="CompanyEmail" />
+                <LayoutItem Id="CompanyUrl" ViewItem="CompanyUrl" Index="4" RelativeSize="83" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="CompanyInformation_col2" RelativeSize="48" ImageName="" Caption="CompanyInformation_col2">
+                <LayoutItem Id="CompanyLogo" Index="0" RelativeSize="100" CaptionLocation="Top" SizeConstraintsType="Custom" MinSize="99, 58" ViewItem="CompanyLogo" />
+                <LayoutItem Id="CompanyTaxID" Index="0" RelativeSize="5" ViewItem="CompanyTaxID" Removed="True" />
+                <LayoutItem Id="CompanyUrl" ViewItem="CompanyUrl" Removed="True" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <DetailView Id="SalesInvoice_DetailView">
+      <Layout>
+        <LayoutGroup Id="Main" RelativeSize="100" ImageName="">
+          <LayoutGroup Id="SimpleEditors" RelativeSize="9" ImageName="">
+            <LayoutGroup Id="SalesInvoice" Direction="Horizontal" RelativeSize="100" Caption="Customer ID" ImageName="">
+              <LayoutGroup Id="e2520959-4c12-44a0-9147-d6628825273d" ShowCaption="False" Caption="" Index="0" RelativeSize="49" IsNewNode="True">
+                <LayoutItem Id="DocumentID" ViewItem="DocumentID" Index="0" RelativeSize="51" IsNewNode="True" />
+                <LayoutItem Id="CustomerID" ViewItem="CustomerID" Index="1" RelativeSize="48" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutGroup Id="f9eaaa64-67ba-48cd-84d9-0744a7e05a32" ShowCaption="False" Caption="" Index="1" RelativeSize="50" IsNewNode="True">
+                <LayoutItem Id="TotalAmount" ViewItem="TotalAmount" Index="0" RelativeSize="51" IsNewNode="True" />
+                <LayoutItem Id="Item1" ShowCaption="False" ViewItem="" Index="1" RelativeSize="48" IsNewNode="True" />
+              </LayoutGroup>
+              <LayoutItem Id="CustomerID" RelativeSize="49" Removed="True" />
+            </LayoutGroup>
+            <LayoutGroup Id="BaseDocument" RelativeSize="32" ImageName="" Caption="BaseDocument" Direction="Horizontal" Removed="True">
+              <LayoutItem Id="DocumentID" Removed="True" />
+              <LayoutItem Id="TotalAmount" Removed="True" />
+            </LayoutGroup>
+          </LayoutGroup>
+          <LayoutGroup Id="Details_Group" Direction="Vertical" Index="1" RelativeSize="90" ImageName="">
+            <LayoutItem Id="Details" RelativeSize="94" />
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+    <ListView Id="SalesInvoice_ListView">
+      <Columns>
+        <ColumnInfo Id="DocumentID" Index="0" />
+        <ColumnInfo Id="CustomerID" Index="1" />
+        <ColumnInfo Id="TotalAmount" Index="2" />
+      </Columns>
+    </ListView>
+  </Views>
+</Application>

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3273/YetAnotherERP.Module/Entities/SystemManager
+END
+CompanyInformation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11131/YetAnotherERP.Module/Entities/SystemManager/CompanyInformation.cs
+END
+Employee.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11081/YetAnotherERP.Module/Entities/SystemManager/Employee.cs
+END
+TaxCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3273/YetAnotherERP.Module/Entities/SystemManager/TaxCode.cs
+END
+SaludationSuffix.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/SystemManager/SaludationSuffix.cs
+END
+Currency.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/SystemManager/Currency.cs
+END
+JobRole.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/SystemManager/JobRole.cs
+END
+PostalCode.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/SystemManager/PostalCode.cs
+END
+BusinessTitle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/SystemManager/BusinessTitle.cs
+END
+Source.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/SystemManager/Source.cs
+END
+Role.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/11082/YetAnotherERP.Module/Entities/SystemManager/Role.cs
+END
+Relationship.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/SystemManager/Relationship.cs
+END
+Saludation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/SystemManager/Saludation.cs
+END
+Department.cs
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/SystemManager/Department.cs
+END
+Country.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/SystemManager/Country.cs
+END
+Company.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11083/YetAnotherERP.Module/Entities/SystemManager/Company.cs
+END

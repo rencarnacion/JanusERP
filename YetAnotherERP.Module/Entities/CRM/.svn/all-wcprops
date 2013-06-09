@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/5614/YetAnotherERP.Module/Entities/CRM
+END
+Contact.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/CRM/Contact.cs
+END
+Case.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8866/YetAnotherERP.Module/Entities/CRM/Case.cs
+END
+Opportunity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8867/YetAnotherERP.Module/Entities/CRM/Opportunity.cs
+END
+Prospect.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/CRM/Prospect.cs
+END
+Campaign.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8867/YetAnotherERP.Module/Entities/CRM/Campaign.cs
+END
+TargetList.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8867/YetAnotherERP.Module/Entities/CRM/TargetList.cs
+END
+Lead.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/CRM/Lead.cs
+END

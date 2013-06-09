@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3267/YetAnotherERP.Module/Entities/Customers
+END
+CustomerAccount.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/Customers/CustomerAccount.cs
+END
+SalesRep.cs
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8867/YetAnotherERP.Module/Entities/Customers/SalesRep.cs
+END
+RMA.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/11114/YetAnotherERP.Module/Entities/Customers/RMA.cs
+END
+SalesCreditMemo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11114/YetAnotherERP.Module/Entities/Customers/SalesCreditMemo.cs
+END
+SalesDeliveryNote.cs
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11114/YetAnotherERP.Module/Entities/Customers/SalesDeliveryNote.cs
+END
+SalesOrder.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11114/YetAnotherERP.Module/Entities/Customers/SalesOrder.cs
+END
+SalesInvoice.cs
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/12715/YetAnotherERP.Module/Entities/Customers/SalesInvoice.cs
+END
+SalesQuote.cs
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11114/YetAnotherERP.Module/Entities/Customers/SalesQuote.cs
+END
+SalesCustomerReceipt.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8867/YetAnotherERP.Module/Entities/Customers/SalesCustomerReceipt.cs
+END

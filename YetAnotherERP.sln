@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.Module", "YetAnotherERP.Module\YetAnotherERP.Module.csproj", "{3BA63787-5BE0-4430-A630-760EC2EE8AF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.Module.Win", "YetAnotherERP.Module.Win\YetAnotherERP.Module.Win.csproj", "{69913AAE-B3F2-4596-B738-3251C7558F9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.Win", "YetAnotherERP.Win\YetAnotherERP.Win.csproj", "{BABA07E3-2D0B-4012-85CF-19B81F9DB580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.BOHelper", "YetAnotherERP.BOHelper\YetAnotherERP.BOHelper.csproj", "{EF591D90-64ED-4F7E-A1C3-438A23FBD10A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.Reporting", "YetAnotherERP.Reporting\YetAnotherERP.Reporting.csproj", "{3C8AECD1-A979-4C55-AA0B-EBB5244207B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YetAnotherERP.Controllers", "YetAnotherERP.Controllers\YetAnotherERP.Controllers.csproj", "{2DA02EA7-9EDC-4655-8765-5B5C48E2AD01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BA63787-5BE0-4430-A630-760EC2EE8AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA63787-5BE0-4430-A630-760EC2EE8AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA63787-5BE0-4430-A630-760EC2EE8AF4}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{3BA63787-5BE0-4430-A630-760EC2EE8AF4}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{3BA63787-5BE0-4430-A630-760EC2EE8AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA63787-5BE0-4430-A630-760EC2EE8AF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69913AAE-B3F2-4596-B738-3251C7558F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69913AAE-B3F2-4596-B738-3251C7558F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69913AAE-B3F2-4596-B738-3251C7558F9F}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{69913AAE-B3F2-4596-B738-3251C7558F9F}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{69913AAE-B3F2-4596-B738-3251C7558F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69913AAE-B3F2-4596-B738-3251C7558F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABA07E3-2D0B-4012-85CF-19B81F9DB580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABA07E3-2D0B-4012-85CF-19B81F9DB580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABA07E3-2D0B-4012-85CF-19B81F9DB580}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{BABA07E3-2D0B-4012-85CF-19B81F9DB580}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{BABA07E3-2D0B-4012-85CF-19B81F9DB580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABA07E3-2D0B-4012-85CF-19B81F9DB580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF591D90-64ED-4F7E-A1C3-438A23FBD10A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF591D90-64ED-4F7E-A1C3-438A23FBD10A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF591D90-64ED-4F7E-A1C3-438A23FBD10A}.EasyTest|Any CPU.ActiveCfg = Release|Any CPU
+		{EF591D90-64ED-4F7E-A1C3-438A23FBD10A}.EasyTest|Any CPU.Build.0 = Release|Any CPU
+		{EF591D90-64ED-4F7E-A1C3-438A23FBD10A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF591D90-64ED-4F7E-A1C3-438A23FBD10A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8AECD1-A979-4C55-AA0B-EBB5244207B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8AECD1-A979-4C55-AA0B-EBB5244207B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8AECD1-A979-4C55-AA0B-EBB5244207B1}.EasyTest|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8AECD1-A979-4C55-AA0B-EBB5244207B1}.EasyTest|Any CPU.Build.0 = Release|Any CPU
+		{3C8AECD1-A979-4C55-AA0B-EBB5244207B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8AECD1-A979-4C55-AA0B-EBB5244207B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA02EA7-9EDC-4655-8765-5B5C48E2AD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA02EA7-9EDC-4655-8765-5B5C48E2AD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA02EA7-9EDC-4655-8765-5B5C48E2AD01}.EasyTest|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA02EA7-9EDC-4655-8765-5B5C48E2AD01}.EasyTest|Any CPU.Build.0 = Release|Any CPU
+		{2DA02EA7-9EDC-4655-8765-5B5C48E2AD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA02EA7-9EDC-4655-8765-5B5C48E2AD01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+	GlobalSection(RocketSvnScc) = preSolution
+		Svn-Managed = True
+		Manager = Rocket SVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3267/YetAnotherERP.Module/Entities/Inventory
+END
+WarehouseLocation.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9399/YetAnotherERP.Module/Entities/Inventory/WarehouseLocation.cs
+END
+Inventory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/11121/YetAnotherERP.Module/Entities/Inventory/Inventory.cs
+END
+Item.cs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/27724/YetAnotherERP.Module/Entities/Inventory/Item.cs
+END
+ProductInventory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11122/YetAnotherERP.Module/Entities/Inventory/ProductInventory.cs
+END
+Warehouse.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/9399/YetAnotherERP.Module/Entities/Inventory/Warehouse.cs
+END

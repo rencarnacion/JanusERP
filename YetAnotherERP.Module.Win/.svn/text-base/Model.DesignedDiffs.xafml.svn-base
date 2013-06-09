@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <NavigationItems DefaultChildItemsDisplayStyle="List" NavigationStyle="NavBar">
+    <Items>
+      <Item Id="CRM" IsNewNode="True" Caption="100 CRM" Index="1" Shortcut="100" />
+      <Item Id="Customers" Index="2" Caption="200 Customers" Shortcut="200" />
+      <Item Id="eCommerce" IsNewNode="True" Index="3" Caption="250 eCommerce" Shortcut="250" />
+      <Item Id="Suppliers" Index="3" Caption="300 Suppliers" />
+      <Item Id="Inventory" Index="4" Caption="400 Inventory">
+        <Items>
+          <Item Id="NewInventory" IsNewNode="True" Caption="New" Index="1">
+            <Items IsNewNode="True">
+              <Item Id="NewItem" IsNewNode="True" Caption="Item" ViewId="Item_ListView" />
+            </Items>
+          </Item>
+          <Item Id="FindInventory" IsNewNode="True" Caption="Find" Index="2">
+            <Items IsNewNode="True">
+              <Item Id="Item_ListView" IsNewNode="True" ViewId="Item_ListView" ObjectKey="" />
+            </Items>
+          </Item>
+          <Item Id="Item_ListView" Removed="True" />
+        </Items>
+      </Item>
+      <Item Id="Shipping" IsNewNode="True" Index="5" Caption="500 Shipping" />
+      <Item Id="Banking" IsNewNode="True" Index="6" Caption="600 Banking" />
+      <Item Id="Accounting" IsNewNode="True" Index="7" Caption="700 Accounting" />
+      <Item Id="Payroll" IsNewNode="True" Index="8" Caption="800 Payroll &amp; HR" />
+      <Item Id="System Manager" Index="9" Caption="900 System Manager" />
+      <Item Id="Reports" Index="10" Caption="950 Reports" />
+    </Items>
+  </NavigationItems>
+  <Options FormStyle="Ribbon">
+    <Dashboards EnableCreation="True" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="10.2.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemWindowsFormsModule" Version="10.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>

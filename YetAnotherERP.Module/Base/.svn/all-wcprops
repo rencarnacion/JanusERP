@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3267/YetAnotherERP.Module/Base
+END
+Activity.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3273/YetAnotherERP.Module/Base/Activity.cs
+END
+PersistentPermissionObject.cs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3273/YetAnotherERP.Module/Base/PersistentPermissionObject.cs
+END
+BaseReportData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/11119/YetAnotherERP.Module/Base/BaseReportData.cs
+END
+BaseDocumentLine.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/12714/YetAnotherERP.Module/Base/BaseDocumentLine.cs
+END
+Address.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5739/YetAnotherERP.Module/Base/Address.cs
+END
+BaseXafReport.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/11120/YetAnotherERP.Module/Base/BaseXafReport.cs
+END
+Person.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/5614/YetAnotherERP.Module/Base/Person.cs
+END
+BaseAccount.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/11067/YetAnotherERP.Module/Base/BaseAccount.cs
+END
+BaseDocument.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/12714/YetAnotherERP.Module/Base/BaseDocument.cs
+END
+Base.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/5614/YetAnotherERP.Module/Base/Base.cs
+END

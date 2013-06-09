@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3258/YetAnotherERP.Module.Win
+END
+Model.DesignedDiffs.xafml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3293/YetAnotherERP.Module.Win/Model.DesignedDiffs.xafml
+END
+WinModule.resx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3258/YetAnotherERP.Module.Win/WinModule.resx
+END
+WinModule.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3258/YetAnotherERP.Module.Win/WinModule.Designer.cs
+END
+WinModule.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3258/YetAnotherERP.Module.Win/WinModule.cs
+END
+Updater.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/8866/YetAnotherERP.Module.Win/Updater.cs
+END
+YetAnotherERP.Module.Win.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/7937/YetAnotherERP.Module.Win/YetAnotherERP.Module.Win.csproj
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5614/YetAnotherERP.Module/Entities/CRM/List
+END
+OpportunityCertainty.cs
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/CRM/List/OpportunityCertainty.cs
+END
+OpportunityCompetitor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/CRM/List/OpportunityCompetitor.cs
+END
+ActivityResource.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/CRM/List/ActivityResource.cs
+END
+ActivityCategory.cs
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11080/YetAnotherERP.Module/Entities/CRM/List/ActivityCategory.cs
+END
